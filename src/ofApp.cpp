@@ -145,8 +145,14 @@ void ofApp::setup(){
     polySize = 0;
     polygon.setup(polySize);
     polyRandomToggle = true;
-        
     
+//--EasingCam
+    EcamToggle = false;
+    EcamRandom = false;
+    EcamSpeed = 0.001;
+    
+    Ecam.setup();
+    Ecam.setCamSpeed(EcamSpeed);
     
 //--GUI
 //HH_Jaguar
@@ -602,6 +608,27 @@ void ofApp::setup(){
 void ofApp::update(){
     
     ofSetBackgroundAuto(backAuto);
+//-- EasingCam--
+    Ecam.update();
+    Ecam.setCamSpeed(EcamSpeed);
+    
+    if (EcamChange) {
+        
+        Ecam.setScale(EcamScale);
+        Ecam.setPos(EcamX, EcamY, EcamZ);
+        EcamChange = false;
+    }
+    
+    
+    if (EcamRandom) {
+        Ecam.setRandomPos();
+        Ecam.setRandomScale(0.1, 1);
+        EcamRandom = false;
+    }
+    
+    
+    
+
     
 //--OSCtoggle--
 //    
@@ -987,7 +1014,13 @@ void ofApp::draw(){
 
     
     
-    cam.begin();
+    if(EcamToggle){
+        Ecam.begin();
+    }
+    else
+    {
+        cam.begin();
+    }
     
     ofPushStyle();
     ofFill();
@@ -1290,7 +1323,13 @@ void ofApp::draw(){
         ofPopMatrix();
     }
     
-    cam.end();
+    if(EcamToggle){
+        Ecam.end();
+    }
+    else
+    {
+        cam.end();
+    }
     
     //--Background
     ofPushMatrix();
@@ -1648,8 +1687,7 @@ void ofApp::osc(){
                     camZ = m.getArgAsFloat(4);
                     camRot.z = m.getArgAsFloat(5);
                     GridToggle = m.getArgAsInt32(6);
-                    EcamToggle = m.getArgAsInt32(7);
-                    EcamSpeed = m.getArgAsInt32(8);
+                    
 
                     
                 }else if(m.getAddress() == "/cameraPre"){
@@ -1658,7 +1696,21 @@ void ofApp::osc(){
                     //			mouseY = m.getArgAsInt32(1);
                     int j = m.getArgAsInt32(0);
                     CamPre[j] = true;
-                }else if(m.getAddress() == "/audio"){
+                }
+                else if(m.getAddress() == "/Ecam"){
+                    EcamToggle = m.getArgAsInt32(0);
+                    EcamSpeed = m.getArgAsFloat(1);
+                    EcamRandom = m.getArgAsInt32(2);
+                    EcamChange = m.getArgAsInt32(3);
+                    EcamScale = m.getArgAsFloat(4);
+                    EcamX = m.getArgAsFloat(5);
+                    EcamY = m.getArgAsFloat(6);
+                    EcamZ = m.getArgAsFloat(7);
+                    
+                    
+                    
+                }
+                else if(m.getAddress() == "/audio"){
                     audioThreshold = m.getArgAsFloat(0);
                     audioPeakDecay = m.getArgAsFloat(1);
                     audioMaxDecay = m.getArgAsFloat(2);
@@ -2283,6 +2335,10 @@ void ofApp::keyPressed(int key){
     if (key == '.') {
         ofSetWindowPosition(0, 100);
     }
+    if (key == ' ') {
+        Ecam.setRandomPos();
+    }
+    
 }
 
 //--------------------------------------------------------------

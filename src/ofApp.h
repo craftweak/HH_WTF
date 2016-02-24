@@ -214,10 +214,16 @@ class ofApp : public ofBaseApp{
     
         bool GridToggle;
     
+//--EasingCam
+    
         ofxEasingCam Ecam;
     
         bool EcamToggle;
         float EcamSpeed;
+        bool EcamRandom;
+        bool EcamChange;
+        float EcamScale;
+        float EcamX,EcamY,EcamZ;
     
     
 //--plane

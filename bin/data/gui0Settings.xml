@@ -23,7 +23,7 @@
 <Widget>
     <Kind>42</Kind>
     <Name>velocity</Name>
-    <Value>0</Value>
+    <Value>100</Value>
 </Widget>
 <Widget>
     <Kind>2</Kind>

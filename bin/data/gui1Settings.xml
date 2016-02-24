@@ -28,7 +28,7 @@
 <Widget>
     <Kind>25</Kind>
     <Name>BackAlpha</Name>
-    <Value>241.000000000</Value>
+    <Value>nan</Value>
 </Widget>
 <Widget>
     <Kind>11</Kind>
@@ -49,7 +49,7 @@
 <Widget>
     <Kind>5</Kind>
     <Name>lr</Name>
-    <Value>0.779999971</Value>
+    <Value>1.000000000</Value>
 </Widget>
 <Widget>
     <Kind>5</Kind>
