@@ -8,7 +8,7 @@
 <Widget>
     <Kind>17</Kind>
     <Name>SPHERE</Name>
-    <Value>0</Value>
+    <Value>1</Value>
 </Widget>
 <Widget>
     <Kind>42</Kind>
@@ -18,7 +18,7 @@
 <Widget>
     <Kind>25</Kind>
     <Name>SphereRidus</Name>
-    <Value>200.000000000</Value>
+    <Value>2377120075393003052597248.000000000</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>

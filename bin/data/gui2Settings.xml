@@ -33,12 +33,12 @@
 <Widget>
     <Kind>25</Kind>
     <Name>Rad</Name>
-    <Value>308.000000000</Value>
+    <Value>inf</Value>
 </Widget>
 <Widget>
     <Kind>25</Kind>
     <Name>rad</Name>
-    <Value>15.000000000</Value>
+    <Value>nan</Value>
 </Widget>
 <Widget>
     <Kind>25</Kind>
@@ -83,7 +83,7 @@
 <Widget>
     <Kind>4</Kind>
     <Name>Width</Name>
-    <Value>0.010000000</Value>
+    <Value>2.000000000</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
@@ -103,12 +103,12 @@
 <Widget>
     <Kind>4</Kind>
     <Name>Scale</Name>
-    <Value>400.000000000</Value>
+    <Value>400.000030518</Value>
 </Widget>
 <Widget>
     <Kind>25</Kind>
     <Name>Width</Name>
-    <Value>2.000000000</Value>
+    <Value>1.000000000</Value>
 </Widget>
 <Widget>
     <Kind>17</Kind>

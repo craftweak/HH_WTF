@@ -1639,9 +1639,7 @@ void ofApp::osc(){
                     linelinef = m.getArgAsFloat(0);
                 }
                 else if(m.getAddress() == "/camera"){
-                    // both the arguments are int32's
-                    //			mouseX = m.getArgAsInt32(0);
-                    //			mouseY = m.getArgAsInt32(1);
+                    
                     CamFadeTime = m.getArgAsInt32(0);
         //            int j = m.getArgAsInt32(1);
         //            CamPre[j] = true;
@@ -1650,6 +1648,9 @@ void ofApp::osc(){
                     camZ = m.getArgAsFloat(4);
                     camRot.z = m.getArgAsFloat(5);
                     GridToggle = m.getArgAsInt32(6);
+                    EcamToggle = m.getArgAsInt32(7);
+                    EcamSpeed = m.getArgAsInt32(8);
+
                     
                 }else if(m.getAddress() == "/cameraPre"){
                     // both the arguments are int32's

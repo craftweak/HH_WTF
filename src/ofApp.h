@@ -219,6 +219,7 @@ class ofApp : public ofBaseApp{
         bool EcamToggle;
         float EcamSpeed;
     
+    
 //--plane
     
         float freq;

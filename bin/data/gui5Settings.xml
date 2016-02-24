@@ -73,5 +73,5 @@
 <Widget>
     <Kind>25</Kind>
     <Name>planePosZ</Name>
-    <Value>0.000000000</Value>
+    <Value>nan</Value>
 </Widget>
