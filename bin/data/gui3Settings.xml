@@ -18,42 +18,42 @@
 <Widget>
     <Kind>4</Kind>
     <Name>CAM_X</Name>
-    <Value>26.954267502</Value>
+    <Value>0.000000000</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>CAM_Y</Name>
-    <Value>1116.875732422</Value>
+    <Value>535.764465332</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>CAM_Z</Name>
-    <Value>746.295532227</Value>
+    <Value>908.640014648</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>ROT_X</Name>
-    <Value>-56.231933594</Value>
+    <Value>-14.531256676</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>ROT_Y</Name>
-    <Value>2.068476915</Value>
+    <Value>0.000000000</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>ROT_Z</Name>
-    <Value>0.000000053</Value>
+    <Value>0.000000000</Value>
 </Widget>
 <Widget>
     <Kind>42</Kind>
     <Name>CamPre</Name>
-    <Value>0</Value>
+    <Value>5</Value>
 </Widget>
 <Widget>
     <Kind>42</Kind>
     <Name>FadeTime</Name>
-    <Value>10</Value>
+    <Value>1</Value>
 </Widget>
 <Widget>
     <Kind>2</Kind>

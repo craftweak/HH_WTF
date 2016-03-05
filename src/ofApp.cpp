@@ -135,7 +135,7 @@ void ofApp::setup(){
     xyCol.set(255,255);
     
 //--plane
-    plane.set(2000, 2000, 20, 20);
+    plane.set(2000, 2000, 15, 15);
     
     plane.setPosition(0,0,0);
     plane.rotate(-90,1,0,0);
@@ -622,7 +622,7 @@ void ofApp::update(){
     
     if (EcamRandom) {
         Ecam.setRandomPos();
-        Ecam.setRandomScale(0.1, 1);
+        Ecam.setRandomScale(0.1, 2);
         EcamRandom = false;
     }
     
@@ -1300,10 +1300,10 @@ void ofApp::draw(){
         ofPushMatrix();
         ofScale(1.8, 1.8, 1.8 );
         ofPushStyle();
-        ofSetColor(200, 200, 200,a3);
+        ofSetColor(200, 200, 200, a3 );
         
         if(w3){
-        ofFill();
+            ofFill();
         }else{
             ofNoFill();
         }
@@ -1316,7 +1316,7 @@ void ofApp::draw(){
         ofPushStyle();
         ofPushMatrix();
         ofTranslate(-50, 200,0);
-        ofSetColor(255, 0, 0,a5);
+        ofSetColor(255, 0, 0, a5 );
         ofFill();
         abc5.draw();
         ofPopStyle();
@@ -1385,14 +1385,14 @@ void ofApp::alembicSetup(){
     string path5 ="abc/HH.abc";
     abc5.open(path5);
     
-    string path6 ="abc/line01.abc";
+    string path6 ="abc/line00.abc";
     abc6.open(path6);
     
-//    string path7 ="abc/HH.abc";
-//    abc5.open(path7);
-//    
+    string path7 ="abc/lineIn01.abc";
+    abc7.open(path7);
+
 //    string path8 ="abc/HH.abc";
-//    abc5.open(path8);
+//    abc8.open(path8);
 }
 //--------------------------------------------------------------
 void ofApp::alembicUpdate(){
@@ -1612,14 +1612,31 @@ void ofApp::alembicDraw(){
 
     
     if(abc4D){
+        ofPushMatrix();
+        ofTranslate(300, 300, 300);
         ofPushStyle();
         ofSetColor(0, 125, 255,200);
         abc4.draw();
         ofPopStyle();
+        ofPopMatrix();
     }
 
     if(abc6D){
+        ofPushMatrix();
+        ofTranslate(0, 0, 0);
+        ofScale(5, 5, 5);
+        ofRotateX(30);
+        ofRotateY(30);
+        ofRotateZ(30);
         abc6.draw();
+        ofPopMatrix();
+    }
+    if(abc7D){
+        ofPushMatrix();
+        ofTranslate(0, 0, 0);
+        ofScale(5, 5, 5);
+        abc7.draw();
+        ofPopMatrix();
     }
     
 }
@@ -1942,6 +1959,40 @@ void ofApp::osc(){
                     z5 = m.getArgAsFloat(4);
                     w5 = m.getArgAsFloat(5);
                     a5 = m.getArgAsFloat(6);
+                    
+                    
+                    
+                }
+                else if(m.getAddress() == "/ABC06"){
+                         abc6D = m.getArgAsFloat(0);
+                         p6 = m.getArgAsFloat(1);
+                         s6 = m.getArgAsFloat(2);
+                         r6 = m.getArgAsFloat(3);
+                         z6 = m.getArgAsFloat(4);
+                         w6 = m.getArgAsFloat(5);
+                         a6 = m.getArgAsFloat(6);
+                         
+                         
+                         
+                }else if(m.getAddress() == "/ABC07"){
+                    abc7D = m.getArgAsFloat(0);
+                    p7 = m.getArgAsFloat(1);
+                    s7 = m.getArgAsFloat(2);
+                    r7 = m.getArgAsFloat(3);
+                    z7 = m.getArgAsFloat(4);
+                    w7 = m.getArgAsFloat(5);
+                    a7 = m.getArgAsFloat(6);
+                    
+                    
+                    
+                }else if(m.getAddress() == "/ABC08"){
+                    abc8D = m.getArgAsFloat(0);
+                    p8 = m.getArgAsFloat(1);
+                    s8 = m.getArgAsFloat(2);
+                    r8 = m.getArgAsFloat(3);
+                    z8 = m.getArgAsFloat(4);
+                    w8 = m.getArgAsFloat(5);
+                    a8 = m.getArgAsFloat(6);
                     
                     
                     

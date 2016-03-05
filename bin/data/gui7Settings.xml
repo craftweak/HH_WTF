@@ -8,7 +8,7 @@
 <Widget>
     <Kind>17</Kind>
     <Name>POLYGON_PLF</Name>
-    <Value>0</Value>
+    <Value>1</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
@@ -43,12 +43,12 @@
 <Widget>
     <Kind>25</Kind>
     <Name>Face</Name>
-    <Value>nan</Value>
+    <Value>111.400001526</Value>
 </Widget>
 <Widget>
     <Kind>25</Kind>
     <Name>Wire</Name>
-    <Value>0.000000000</Value>
+    <Value>255.000000000</Value>
 </Widget>
 <Widget>
     <Kind>25</Kind>
@@ -88,5 +88,5 @@
 <Widget>
     <Kind>2</Kind>
     <Name>Rotate</Name>
-    <Value>0</Value>
+    <Value>1</Value>
 </Widget>

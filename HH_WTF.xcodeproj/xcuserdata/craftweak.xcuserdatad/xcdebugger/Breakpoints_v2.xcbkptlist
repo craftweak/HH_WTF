@@ -2,4 +2,66 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "src/ofApp.cpp"
+            timestampString = "478008765.922837"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1977"
+            endingLineNumber = "1977"
+            landmarkName = "ofApp::osc()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ofApp::osc()"
+                  moduleName = "HH_WTF"
+                  urlString = "file:///Users/craftweak/Documents/of_v0.8.4_osx_release/apps/myApps/HH_WTF/src/ofApp.cpp"
+                  timestampString = "478005268.870063"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1959"
+                  endingLineNumber = "1959"
+                  offsetFromSymbolStart = "10536">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ofApp::osc()"
+                  moduleName = "HH_WTF"
+                  urlString = "file:///Users/craftweak/Documents/of_v0.8.4_osx_release/apps/myApps/HH_WTF/src/ofApp.cpp"
+                  timestampString = "478005268.870993"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1959"
+                  endingLineNumber = "1959"
+                  offsetFromSymbolStart = "12460">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ofApp::osc()"
+                  moduleName = "HH_WTF"
+                  urlString = "file:///Users/craftweak/Documents/of_v0.8.4_osx_release/apps/myApps/HH_WTF/src/ofApp.cpp"
+                  timestampString = "478005268.871119"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1959"
+                  endingLineNumber = "1959"
+                  offsetFromSymbolStart = "12476">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

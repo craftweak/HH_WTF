@@ -6,6 +6,8 @@
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>390F72C8-28D6-4F3D-9486-CB822667CE15</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HH_WTF</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>1790EB8EAE11D78D495D6965965FCC5824BA9A46</key>
@@ -16,6 +18,8 @@
 		<string>https://github.com/NickHardeman/ofxTweenzor.git</string>
 		<key>2EF43D1D30359A63A415F3CC3B5BE8B3229520A5</key>
 		<string>https://github.com/julapy/ofxFFT.git</string>
+		<key>65B0B150025E1F2AFC0184D370DCB129618E0218</key>
+		<string>https://github.com/craftweak/HH_WTF.git</string>
 		<key>7E804D925461714118DB355C65BC964B41D94376</key>
 		<string>https://github.com/rezaali/ofxUI.git</string>
 		<key>B84130D9396ED9A5FB5812E1F59F0C57C1A4FE45</key>
@@ -23,31 +27,43 @@
 		<key>F69848794C3B8E65777F64980F34D78754B55DEA</key>
 		<string>https://github.com/hautetechnique/ofxTweener.git</string>
 	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HH_WTF.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>1790EB8EAE11D78D495D6965965FCC5824BA9A46</key>
-		<string>ofxPlaylist/</string>
+		<string>../../../addons/ofxPlaylist</string>
 		<key>19F3B8E68CAC4AF41D6D50C58C17BEA00C89D0D6</key>
-		<string>ofxAlembic/</string>
+		<string>../../../addons/ofxAlembic</string>
 		<key>1CCEF204770FFA6FA56AE5AC5AA11118E75F2D06</key>
-		<string>ofxTweenzor/</string>
+		<string>../../../addons/ofxTweenzor</string>
 		<key>2EF43D1D30359A63A415F3CC3B5BE8B3229520A5</key>
-		<string>ofxFFT2/</string>
+		<string>../../../addons/ofxFFT2</string>
+		<key>65B0B150025E1F2AFC0184D370DCB129618E0218</key>
+		<string>../..</string>
 		<key>7E804D925461714118DB355C65BC964B41D94376</key>
-		<string>ofxUI/</string>
+		<string>../../../addons/ofxUI</string>
 		<key>B84130D9396ED9A5FB5812E1F59F0C57C1A4FE45</key>
-		<string>ofxCameraMove/</string>
+		<string>../../../addons/ofxCameraMove</string>
 		<key>F69848794C3B8E65777F64980F34D78754B55DEA</key>
-		<string>ofxTweener/</string>
+		<string>../../../addons/ofxTweener</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/strimbob/ofxCameraMove.git</string>
+	<string>https://github.com/craftweak/HH_WTF.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>B84130D9396ED9A5FB5812E1F59F0C57C1A4FE45</string>
+	<string>65B0B150025E1F2AFC0184D370DCB129618E0218</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>65B0B150025E1F2AFC0184D370DCB129618E0218</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HH_WTF</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

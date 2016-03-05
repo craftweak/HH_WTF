@@ -38,7 +38,7 @@
 <Widget>
     <Kind>25</Kind>
     <Name>rad</Name>
-    <Value>0.000000000</Value>
+    <Value>26.000000000</Value>
 </Widget>
 <Widget>
     <Kind>25</Kind>
@@ -68,27 +68,27 @@
 <Widget>
     <Kind>4</Kind>
     <Name>X_Scale</Name>
-    <Value>512.000000000</Value>
+    <Value>4096.000000000</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>Y_Scale</Name>
-    <Value>512.000000000</Value>
+    <Value>4096.000000000</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>P_Scale</Name>
-    <Value>0.000000000</Value>
+    <Value>60.000000000</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>Width</Name>
-    <Value>3.000000000</Value>
+    <Value>1.000000000</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>xyRotZ</Name>
-    <Value>0.000000000</Value>
+    <Value>-45.000000000</Value>
 </Widget>
 <Widget>
     <Kind>17</Kind>
@@ -108,7 +108,7 @@
 <Widget>
     <Kind>25</Kind>
     <Name>Width</Name>
-    <Value>1.000000000</Value>
+    <Value>3.000000000</Value>
 </Widget>
 <Widget>
     <Kind>17</Kind>

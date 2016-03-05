@@ -8,147 +8,57 @@
 <Widget>
     <Kind>5</Kind>
     <Name></Name>
-    <Value>nan</Value>
+    <Value>0.003087969</Value>
 </Widget>
 <Widget>
     <Kind>5</Kind>
     <Name></Name>
-    <Value>nan</Value>
+    <Value>0.003087969</Value>
 </Widget>
 <Widget>
     <Kind>5</Kind>
     <Name></Name>
-    <Value>nan</Value>
+    <Value>0.002897654</Value>
 </Widget>
 <Widget>
     <Kind>5</Kind>
     <Name></Name>
-    <Value>nan</Value>
+    <Value>0.002919977</Value>
 </Widget>
 <Widget>
     <Kind>5</Kind>
     <Name></Name>
-    <Value>nan</Value>
+    <Value>0.001966021</Value>
 </Widget>
 <Widget>
     <Kind>5</Kind>
     <Name></Name>
-    <Value>nan</Value>
+    <Value>0.000827502</Value>
 </Widget>
 <Widget>
     <Kind>5</Kind>
     <Name></Name>
-    <Value>nan</Value>
+    <Value>0.002949830</Value>
 </Widget>
 <Widget>
     <Kind>5</Kind>
     <Name></Name>
-    <Value>nan</Value>
+    <Value>0.006381392</Value>
 </Widget>
 <Widget>
     <Kind>5</Kind>
     <Name></Name>
-    <Value>nan</Value>
+    <Value>0.001264660</Value>
 </Widget>
 <Widget>
     <Kind>5</Kind>
     <Name></Name>
-    <Value>nan</Value>
+    <Value>0.002943364</Value>
 </Widget>
 <Widget>
     <Kind>5</Kind>
     <Name></Name>
-    <Value>nan</Value>
-</Widget>
-<Widget>
-    <Kind>5</Kind>
-    <Name></Name>
-    <Value>nan</Value>
-</Widget>
-<Widget>
-    <Kind>5</Kind>
-    <Name></Name>
-    <Value>nan</Value>
-</Widget>
-<Widget>
-    <Kind>5</Kind>
-    <Name></Name>
-    <Value>nan</Value>
-</Widget>
-<Widget>
-    <Kind>5</Kind>
-    <Name></Name>
-    <Value>nan</Value>
-</Widget>
-<Widget>
-    <Kind>5</Kind>
-    <Name></Name>
-    <Value>nan</Value>
-</Widget>
-<Widget>
-    <Kind>5</Kind>
-    <Name></Name>
-    <Value>nan</Value>
-</Widget>
-<Widget>
-    <Kind>5</Kind>
-    <Name></Name>
-    <Value>nan</Value>
-</Widget>
-<Widget>
-    <Kind>5</Kind>
-    <Name></Name>
-    <Value>nan</Value>
-</Widget>
-<Widget>
-    <Kind>5</Kind>
-    <Name></Name>
-    <Value>nan</Value>
-</Widget>
-<Widget>
-    <Kind>5</Kind>
-    <Name></Name>
-    <Value>nan</Value>
-</Widget>
-<Widget>
-    <Kind>5</Kind>
-    <Name></Name>
-    <Value>42.169273376</Value>
-</Widget>
-<Widget>
-    <Kind>5</Kind>
-    <Name></Name>
-    <Value>nan</Value>
-</Widget>
-<Widget>
-    <Kind>5</Kind>
-    <Name></Name>
-    <Value>nan</Value>
-</Widget>
-<Widget>
-    <Kind>5</Kind>
-    <Name></Name>
-    <Value>nan</Value>
-</Widget>
-<Widget>
-    <Kind>5</Kind>
-    <Name></Name>
-    <Value>nan</Value>
-</Widget>
-<Widget>
-    <Kind>5</Kind>
-    <Name></Name>
-    <Value>4.708285809</Value>
-</Widget>
-<Widget>
-    <Kind>5</Kind>
-    <Name></Name>
-    <Value>nan</Value>
-</Widget>
-<Widget>
-    <Kind>5</Kind>
-    <Name></Name>
-    <Value>3.999717951</Value>
+    <Value>0.003143133</Value>
 </Widget>
 <Widget>
     <Kind>5</Kind>
@@ -158,17 +68,27 @@
 <Widget>
     <Kind>5</Kind>
     <Name></Name>
-    <Value>11.703547478</Value>
+    <Value>0.006772384</Value>
 </Widget>
 <Widget>
     <Kind>5</Kind>
     <Name></Name>
-    <Value>19.191947937</Value>
+    <Value>0.008548713</Value>
 </Widget>
 <Widget>
     <Kind>5</Kind>
     <Name></Name>
-    <Value>35.265247345</Value>
+    <Value>0.012331977</Value>
+</Widget>
+<Widget>
+    <Kind>5</Kind>
+    <Name></Name>
+    <Value>0.000000000</Value>
+</Widget>
+<Widget>
+    <Kind>5</Kind>
+    <Name></Name>
+    <Value>0.024724428</Value>
 </Widget>
 <Widget>
     <Kind>5</Kind>
@@ -183,5 +103,85 @@
 <Widget>
     <Kind>5</Kind>
     <Name></Name>
-    <Value>1.084064484</Value>
+    <Value>0.000000000</Value>
+</Widget>
+<Widget>
+    <Kind>5</Kind>
+    <Name></Name>
+    <Value>0.002403890</Value>
+</Widget>
+<Widget>
+    <Kind>5</Kind>
+    <Name></Name>
+    <Value>0.002810529</Value>
+</Widget>
+<Widget>
+    <Kind>5</Kind>
+    <Name></Name>
+    <Value>0.002317973</Value>
+</Widget>
+<Widget>
+    <Kind>5</Kind>
+    <Name></Name>
+    <Value>0.000000000</Value>
+</Widget>
+<Widget>
+    <Kind>5</Kind>
+    <Name></Name>
+    <Value>0.000000000</Value>
+</Widget>
+<Widget>
+    <Kind>5</Kind>
+    <Name></Name>
+    <Value>0.000000000</Value>
+</Widget>
+<Widget>
+    <Kind>5</Kind>
+    <Name></Name>
+    <Value>0.002397841</Value>
+</Widget>
+<Widget>
+    <Kind>5</Kind>
+    <Name></Name>
+    <Value>0.001464240</Value>
+</Widget>
+<Widget>
+    <Kind>5</Kind>
+    <Name></Name>
+    <Value>0.000000000</Value>
+</Widget>
+<Widget>
+    <Kind>5</Kind>
+    <Name></Name>
+    <Value>0.005206847</Value>
+</Widget>
+<Widget>
+    <Kind>5</Kind>
+    <Name></Name>
+    <Value>0.007921776</Value>
+</Widget>
+<Widget>
+    <Kind>5</Kind>
+    <Name></Name>
+    <Value>0.000000000</Value>
+</Widget>
+<Widget>
+    <Kind>5</Kind>
+    <Name></Name>
+    <Value>0.011298541</Value>
+</Widget>
+<Widget>
+    <Kind>5</Kind>
+    <Name></Name>
+    <Value>0.017715387</Value>
+</Widget>
+<Widget>
+    <Kind>5</Kind>
+    <Name></Name>
+    <Value>0.000000000</Value>
+</Widget>
+<Widget>
+    <Kind>5</Kind>
+    <Name></Name>
+    <Value>0.039244443</Value>
 </Widget>
